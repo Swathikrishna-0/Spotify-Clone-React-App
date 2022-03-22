@@ -1,0 +1,52 @@
+.body{
+  flex:0.8;
+  height: 100vh;
+  color: white;
+  padding:30px;
+  overflow-y: overlay;
+  background: linear-gradient(rgba(91,87,115), rgba(0,0,0,1));
+}
+.body__info{
+  display:flex; 
+  align-items:flex-end;
+  padding:10px; 
+}
+.body__infoText{
+  flex: 1;
+}
+.body__info > img {
+  height:20vw;
+  margin: 0 20px;
+  box-shadow: 0 4px 60px rgba(0,0,0,0.5);
+}
+.body__infoText > h2{
+  font-size:48px;
+}
+.body__infoText > p{
+  font-size:14px;
+}
+
+.body__icons{
+  display:flex; 
+  align-items:center;
+}
+.body__shuffle{
+  margin-right: 10px;
+  margin-left: 50px;
+  font-size: 70px !important;
+  margin-bottom: 20px;
+}
+.body__shuffle:hover{
+  transition: 100ms transform ease-in;
+  transform: scale(1.08);
+}
+.body__favIcon{
+  font-size: 28px;
+  margin-right: 10px;
+}
+.body__moreIcon{
+  font-size: 24px;
+}
+.body__songs{
+  margin:20px -30px;
+}

@@ -6,4 +6,5 @@ Spotify Clone
 » React Context API(Like REDUX)
 » React Hooks Functional(Hooks, State)
 » REACT Stack
+» Host on Firebase 
 
